@@ -1,6 +1,6 @@
 window.onload = function() {
   var notification = document.getElementById('notification');
-  var earthDayButton = document.getElementById('earth-day');
+  var earthDayButton = document.getElementById('vallis-cold');
   var earthNightButton = document.getElementById('vallis-warm');
 
   earthDayButton.addEventListener('click', function() {
@@ -36,4 +36,5 @@ window.onload = function() {
     }
   }
 };
-CSS (styl
+"vallis-warm">Vallis Warm</button>
+  <button id="vallis-cold"

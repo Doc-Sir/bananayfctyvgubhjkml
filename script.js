@@ -36,5 +36,3 @@ window.onload = function() {
     }
   }
 };
-"vallis-warm">Vallis Warm</button>
-  <button id="vallis-cold"

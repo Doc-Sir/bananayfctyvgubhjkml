@@ -1,14 +1,14 @@
 window.onload = function() {
   var notification = document.getElementById('notification');
-  var earthDayButton = document.getElementById('vallis-warm');
-  var earthNightButton = document.getElementById('vallis-cold');
+  var earthDayButton = document.getElementById('earth-day');
+  var earthNightButton = document.getElementById('earth-night');
 
   earthDayButton.addEventListener('click', function() {
-    checkImage('thing2.png');
+    checkImage('thing.png');
   });
 
   earthNightButton.addEventListener('click', function() {
-    checkImage('thing.png');
+    checkImage('thing2.png');
   });
 
   function checkImage(imageName) {
@@ -36,3 +36,4 @@ window.onload = function() {
     }
   }
 };
+CSS (styl

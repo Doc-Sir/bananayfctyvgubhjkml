@@ -1,7 +1,7 @@
 window.onload = function() {
   var notification = document.getElementById('notification');
   var earthDayButton = document.getElementById('earth-day');
-  var earthNightButton = document.getElementById('earth-night');
+  var earthNightButton = document.getElementById('vallis-warm');
 
   earthDayButton.addEventListener('click', function() {
     checkImage('thing.png');

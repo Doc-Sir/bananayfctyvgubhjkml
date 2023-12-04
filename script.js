@@ -4,11 +4,11 @@ window.onload = function() {
   var earthNightButton = document.getElementById('vallis-warm');
 
   earthDayButton.addEventListener('click', function() {
-    checkImage('thing.png');
+    checkImage('thing2.png');
   });
 
   earthNightButton.addEventListener('click', function() {
-    checkImage('thing2.png');
+    checkImage('thing.png');
   });
 
   function checkImage(imageName) {
